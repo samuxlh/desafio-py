@@ -15,5 +15,5 @@ while i<5:
         pos = i
     i = i + 1
 
-print('\nA maior nota foi', max1);
-print('Essa nota foi obtida pelo aluno ', pos);
+print('\nA maior nota foi:', max1);
+print('Essa nota foi obtida pelo aluno:', pos);
