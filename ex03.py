@@ -1,17 +1,16 @@
-notas = []
-item = ''
+arr = []
 i = 0
 while i<5:
     n = int(input('Insira a nota do aluno ' + str(i) + ': '))
-    notas.append(n);
+    arr.append(n);
     i = i + 1
 
 i=0
 max1 = 0
 
 while i<5:
-    if (notas[i] > max1):
-        max1 = notas[i]
+    if (arr[i] > max1):
+        max1 = arr[i]
         pos = i
     i = i + 1
 
