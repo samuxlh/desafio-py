@@ -14,4 +14,14 @@ for i in lista:
     else:
         lista[i] = ((2^i) + 4*(numpy.log(i)))
 
-print(lista);
+listaAux = lista.copy()
+listaAux.sort()
+
+i=0
+while i<10:
+    if lista[i] == listaAux[9]:
+        pos = i;
+    i = i + 1
+
+print('Posição do maior item do vetor é:', pos)
+print('A média dos valores da lista foi:', round(numpy.mean(lista), 2))
